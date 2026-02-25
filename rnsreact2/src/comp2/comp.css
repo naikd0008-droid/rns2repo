@@ -1,0 +1,69 @@
+*{
+    div{
+        border: 2px solid;
+    }
+}
+.main{
+    max-width:50vh;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
+    color: white;
+  }
+.top{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.a1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.a11{
+    height: 30px;
+    
+}
+.a12{
+    
+}  
+.middle{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.b1{
+    flex: 2;
+}
+.b2{
+    flex: 1;
+}
+.b3{
+    flex: 1;
+}
+.b4{
+    flex: 1;
+}
+.b5{
+    flex: 1;
+}
+.bottom{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.d1{
+    flex: 3;
+}
+.d2{
+    flex: 1;
+    display: flex
+    ;
+}
+.img1{
+    
+}
