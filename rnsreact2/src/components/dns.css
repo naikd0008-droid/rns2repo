@@ -1,79 +1,45 @@
 * {
-  font-family: Arial, sans-serif;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-.apb {
-  display: flex;
-  height: 100vh;
-  background: #f6f7fb;
-}
-
-/* Sidebar */
-
-.sidebar {
-  width: 240px;
-  background: linear-gradient(180deg,#0f172a,#6b21a8);
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.sidebar h2 {
-  margin: 0;
-}
-
-.user {
-  font-size: 13px;
-  opacity: .7;
-}
-
-.sidebar nav a {
-  display: block;
-  padding: 12px;
-  margin: 6px 0;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.sidebar nav a.active {
-  background: #7c3aed;
-}
-
-.logout {
-  margin-top: auto;
-  padding: 10px;
-  border: none;
-  background: transparent;
-  color: white;
-  cursor: pointer;
-}
-
-/* Main */
-
-.content {
-  flex: 1;
+.page {
   padding: 25px;
+  background: #f7f7f7;
 }
 
-.stats {
+.cards {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  margin-bottom: 25px;
+  margin: 20px 0;
 }
 
 .card {
-  padding: 20px;
-  border-radius: 14px;
   color: white;
+  padding: 25px;
+  border-radius: 12px;
 }
 
-.blue { background: linear-gradient(135deg,#2563eb,#1e40af);}
-.orange { background: linear-gradient(135deg,#f59e0b,#b45309);}
-.purple { background: linear-gradient(135deg,#a855f7,#6b21a8);}
-.green { background: linear-gradient(135deg,#22c55e,#15803d);}
+.card p {
+  opacity: 0.9;
+}
+
+.blue {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+.orange {
+  background: linear-gradient(135deg, #f59e0b, #b45309);
+}
+
+.purple {
+  background: linear-gradient(135deg, #a855f7, #6b21a8);
+}
+
+.green {
+  background: linear-gradient(135deg, #22c55e, #15803d);
+}
 
 .controls {
   display: flex;
@@ -84,72 +50,68 @@
 .controls input {
   width: 60%;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid #ddd;
 }
 
 .filters button {
-  padding: 10px 14px;
-  margin-left: 6px;
-  border-radius: 10px;
+  margin-left: 8px;
+  padding: 8px 14px;
+  border-radius: 8px;
   border: 1px solid #ddd;
   background: white;
   cursor: pointer;
 }
 
 .filters .active {
-  background: #7c3aed;
+  background: #9333ea;
   color: white;
+  border: none;
 }
-
-/* Table */
 
 .table-box {
   background: white;
   padding: 20px;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 10px;
 }
 
 th {
   text-align: left;
   padding: 12px;
-  color: #555;
+  color: #666;
 }
 
 td {
-  padding: 12px;
+  padding: 14px 12px;
   border-top: 1px solid #eee;
 }
 
-.money {
-  color: green;
+.amount {
+  color: #16a34a;
   font-weight: bold;
 }
 
-/* Badges */
-
-.badge {
+.status {
   padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 12px;
+  border-radius: 12px;
+  font-size: 14px;
 }
 
 .pending {
-  background: #fef3c7;
-  color: #92400e;
+  background: #f1f1f1;
 }
 
 .progress {
-  background: #e0e7ff;
-  color: #3730a3;
+  background: #111;
+  color: white;
 }
 
-.done {
-  background: #dcfce7;
-  color: #166534;
+.completed {
+  background: #e5e7eb;
 }
