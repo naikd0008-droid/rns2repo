@@ -1,14 +1,14 @@
 *{
     div{
-       / border: 2px solid;
+//border: 2px solid;
     }
 }
 .main{
-    max-width:50vh;
+    max-width:35vh;
     height: 95vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
+    background: linear-gradient(rgb(23, 12, 23),rgb(58, 15, 64),rgb(120, 16, 120));
     color: white;;
   }
 .top{
@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     padding-left: 15px;
-    padding: 10px;
+    padding: 20px;
     gap: 5px;
 
 }
@@ -43,9 +43,12 @@
     align-items: center;
     justify-content: start;
     border-radius: 10px;
-     background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
     color: white;
     border: none;
+    background: none;
+}
+.b1:hover{
+    background: linear-gradient(to right,pink,purple,blue);
 }
 .b2{
     flex: 1;
@@ -54,9 +57,14 @@
     align-items: center;
     justify-content: start;
     border-radius: 10px;
-    background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
     color: white;
     border: none;
+    background: none;
+    
+}
+.b2:hover{
+    background: linear-gradient(to right,pink,purple,blue);
+
 }
 .b3{
     flex: 1;
@@ -64,10 +72,13 @@
     display: flex;
     align-items: center;
     justify-content: start;
-     border-radius: 10px;
-     background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
+    border-radius: 10px;
     color: white;
     border: none;
+    background: none;
+}
+.b3:hover{
+        background: linear-gradient(to right,pink,purple,blue);
 }
 .b4{
     flex: 1;
@@ -75,10 +86,14 @@
     display: flex;
     align-items: center;
     justify-content: start;
-     border-radius: 10px;
-     background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
+    border-radius: 10px;
     color: white;
     border: none;
+    background: none;
+}
+.b4:hover{
+   background: linear-gradient(to right,pink,purple,blue);
+
 }
 .b5{
     flex: 1;
@@ -86,10 +101,13 @@
     display: flex;
     align-items: center;
     justify-content: start;
-     border-radius: 10px;
-     background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
+    border-radius: 10px;
     color: white;
     border: none;
+    background: none;
+}
+.b5:hover{
+    background: linear-gradient(to right,pink,purple,blue);
 }
 .bottom{
     flex: 3;
@@ -105,7 +123,10 @@
     display: flex;
     align-items: center;
     justify-content: start;
-     border-radius: 10px;
-     background: linear-gradient(rgb(24, 7, 24),purple,rgb(38, 11, 38));
+    border-radius: 10px;
     color: white;border: none;
+    background: none;
+}
+.d2:hover{
+    background: linear-gradient(to right,pink,purple,blue);
 }

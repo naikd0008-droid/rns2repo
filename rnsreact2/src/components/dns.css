@@ -64,8 +64,8 @@
 }
 
 .filters .active {
-  background: #9333ea;
-  color: white;
+ 
+  color: black;
   border: none;
 }
 
@@ -108,8 +108,9 @@ td {
 }
 
 .progress {
-  background: #111;
-  color: white;
+  
+background: #f1f1f1;
+  color: black;
 }
 
 .completed {
